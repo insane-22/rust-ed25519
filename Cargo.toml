@@ -1,0 +1,11 @@
+[package]
+name = "rust_ed25519"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ed25519-dalek = "1.0"
+rand = "0.7"
+clap = { version = "4.2", features = ["derive"] }
+hex = "0.4"
+anyhow = "1.0"
